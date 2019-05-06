@@ -5,8 +5,8 @@ import * as Pixi from 'pixi.js'
 
 const app = new Application({
 	view: document.querySelector('canvas'),
-	width: window.innerWidth,
-	height: window.innerHeight
+	width: window.innerWidth * 0.95,
+	height: window.innerHeight * 0.95
 })
 
 class Point extends Pixi.Graphics {
